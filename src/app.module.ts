@@ -11,7 +11,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
       password: 'your_db_password',
       database: 'rating_platform',
       autoLoadEntities: true,
-      synchronize: true, // use false in production
+      synchronize: true,
     }),
   ],
 })
